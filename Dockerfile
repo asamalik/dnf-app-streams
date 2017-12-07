@@ -1,4 +1,6 @@
-from fedora:27
+from registry.fedoraproject.org/fedora:26
+
+run curl https://ignatenkobrain.fedorapeople.org/libdnf-favor/libdnf-favor.repo -o /etc/yum.repos.d/libdnf-favor.repo
 
 # Add two repositories:
 #   modules.repo          - Modules
