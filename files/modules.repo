@@ -1,0 +1,5 @@
+[modules]
+name = Modules
+baseurl = https://asamalik.fedorapeople.org/modularity-dnf-poc/base/
+enabled = 1
+gpgcheck = 0
